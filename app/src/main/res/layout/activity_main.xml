@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soniaelizondo.app.MainActivity">
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="89dp"
+        android:layout_marginHorizontal="?attr/listPreferredItemPaddingLeft"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="true"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/favoritos"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="192dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:gravity="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" android:focusable="true">
+
+        <TextView
+            android:id="@+id/abiertas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="true"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/abiertas"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/informacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="true"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/info"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
