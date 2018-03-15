@@ -7,22 +7,23 @@
     tools:context="com.example.soniaelizondo.app.MainActivity">
 
     <LinearLayout
-        android:layout_width="371dp"
+        android:layout_width="match_parent"
         android:layout_height="89dp"
         android:layout_marginHorizontal="?attr/listPreferredItemPaddingLeft"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="128dp"
         android:clickable="true"
         android:focusable="true"
         android:gravity="center"
-        android:orientation="vertical"
+        android:screenOrientation="sensorLandscape"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/fav"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="false"
             android:focusable="true"
@@ -38,11 +39,12 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="369dp"
+        android:layout_width="match_parent"
         android:layout_height="89dp"
         android:layout_marginBottom="192dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_centerInParent="true"
         android:orientation="vertical"
         android:clickable="true"
         android:gravity="center"
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:clickable="false"
             android:focusable="true"
+            android:layout_centerInParent="true"
             android:fontFamily="casual"
             android:gravity="center"
             android:text="@string/abiertas"
@@ -67,7 +70,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="369dp"
+        android:layout_width="match_parent"
         android:layout_height="89dp"
         android:layout_marginBottom="88dp"
         android:layout_marginStart="8dp"
@@ -82,7 +85,7 @@
 
         <TextView
             android:id="@+id/informacion"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="false"
             android:focusable="true"

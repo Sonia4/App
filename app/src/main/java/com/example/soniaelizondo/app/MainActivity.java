@@ -2,6 +2,7 @@ package com.example.soniaelizondo.app;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import com.mapbox.mapboxsdk.Mapbox;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -3,4 +3,8 @@
     <string name="favoritos">Favoritos</string>
     <string name="abiertas">Abiertas</string>
     <string name="info">Información</string>
+    <string name="mapa">Mapa</string>
+    <string name="lista">Lista</string>
+    <string name="detalles">Detalles</string>
+    <string name="biblioteca">Biblioteca</string>
 </resources>
